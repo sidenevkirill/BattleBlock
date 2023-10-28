@@ -461,7 +461,7 @@ label::after {
 }
 
 .sound_label span::after {
-    content: "Звук выключен";
+    content: "Звук включен";
     left: calc(var(--size_2) + var(--size_4));
     line-height: 1.2;
 }
@@ -475,7 +475,7 @@ input[type=checkbox]:checked + .sound_label::after {
 }
 
 input[type=checkbox]:checked + .sound_label span::after {
-    content: "Sound on";
+    content: "Звук включен";
     color: var(--c_green1);
     font-size: var(--size_2);
     line-height: 1;
